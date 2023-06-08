@@ -1,0 +1,12 @@
+//Instrunçoes sql para criar banco de dados Crud e tabela Pessoas.
+//mysql
+
+CREATE DATABASE crud;
+USE crud;
+
+CREATE TABLE tb_pessoas(
+idpessoa INT AUTO_INCREMENT NOT NULL,
+desnome VARCHAR(50) NOT NULL,
+descpf  VARCHAR(14) NOT NULL,
+desfone varchar (15) NOT NULL,
+CONSTRAINT pk_pessoas PRIMARY KEY(idpessoa));
