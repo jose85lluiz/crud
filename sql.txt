@@ -1,4 +1,4 @@
-//Instrunçoes sql para criar banco de dados Crud e tabela Pessoas.
+//Instruçoes sql para criar banco de dados Crud e tabela Pessoas.
 //mysql
 
 CREATE DATABASE crud;
